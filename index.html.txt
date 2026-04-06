@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mi Sitio Web</h1>
+        <p>Proyecto práctico HTML y CSS</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <main class="contenedor">
+        <section class="caja">
+            <h2>Bienvenido</h2>
+            <p>Esta es una página web creada como parte de un proyecto práctico utilizando HTML y CSS.</p>
+        </section>
+
+        <section class="caja">
+            <h2>Servicios</h2>
+            <p>Ofrecemos desarrollo web básico, diseño responsivo y soluciones digitales simples.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - Proyecto HTML y CSS</p>
+    </footer>
+
+</body>
+</html>

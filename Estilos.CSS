@@ -1,0 +1,66 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Cajas */
+.caja {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
